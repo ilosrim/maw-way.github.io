@@ -1,0 +1,316 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    max-width: 100vw;
+    height: 813px;
+    background: linear-gradient(to right, #fff 60%, #800A7A 40%);
+}
+.nav__items{
+    margin-left: 175px;
+}
+.nav__items .nav-item .nav-link{
+    font-size: 14px;
+    line-height: 17px;
+    color: #222124;
+}
+.right__sec p{
+    margin: 0;
+    padding: 0;
+}
+.tel{
+    margin-right: 65px;
+}
+.korz{
+    padding-left: 40px;
+}
+.katta{
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 15px;
+    font-weight: bold;
+}
+.kichik{
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.title__text{
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 85px;
+    color: #222124;
+    margin-top: 125px;
+    margin-bottom: 14px;
+}
+.body__text{
+    font-size: 18px;
+    line-height: 32px;
+    color: #222124;
+    margin-bottom: 66px;
+}
+.bg-burger__img{
+    width: 691px;
+    height: 524px;
+    filter: drop-shadow(10px 70px 80px rgba(114, 10, 109, 0.2));
+    position: relative;
+}
+.bg-burger__img .burger__logo{
+    width: 788px;
+    position: absolute;
+    top: -6%;
+    left: -20%;
+}
+.g__line{
+    height: 1px;
+    opacity: 0.2;
+    margin-top: 79px;
+    margin-bottom: 40px;
+}
+
+/* sections */
+.links{
+    margin-top: 115px;
+}
+.nav___items{
+    padding-left: 0;
+}
+.nav___item{
+    list-style: none;
+}
+.links .container .nav___items .nav___item a.first__link{
+    padding: 15px 27px;
+    background-color: #F1B301!important;
+    border-radius: 27px;
+    color: #FFFFFF;
+}
+.links .container .nav___items .nav___item a.last__link{
+    padding: 15px 35px;
+    background-color: #F5F5F5;
+    border-radius: 27px;
+}
+.pitsa{
+    margin-top: 100px;
+}
+.title{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    color: #222124;
+}
+.block{
+    padding-top: 30px;
+}
+.dis-nones{
+    display: none!important;
+}
+.box{
+    width: 540px;
+    height: 230px;
+    border: 1px solid rgba(151, 151, 151, 0.181927);
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+.blur-reletive{
+    position: relative;
+}
+.pitsa-img{
+    margin: 30px 40px 20px 30px;
+    width: 180px;
+}
+.blur{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 20%;
+    top: 15%;
+    background: rgba(255, 255, 255, 0.249235);
+    box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+}
+.food-title span{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222124;
+}
+.text{
+    font-size: 14px;
+    line-height: 17px;
+    color: #222124;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+.sum{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222124;
+}
+.plus{
+    width: 50px;
+    height: 50px;
+    background: #F1B301;
+    border-radius: 50%;
+}
+.plus span{
+    color: #fff;
+    font-weight: normal;
+    font-size: 30px;
+}
+.apps{
+    background-color: #800A7A;
+    padding-bottom: 40px;
+}
+.title__app{
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+    color: #FFFFFF;
+    margin-top: 75px;
+    margin-bottom: 63px;
+}
+.img__apps{
+    width: 70%;
+    border: 1px solid rgba(255, 255, 255, 0.292941);
+    box-sizing: border-box;
+    backdrop-filter: blur(27.1828px);
+    border-radius: 46px;
+    padding: 8px 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google-play__img{
+    margin-right: -100px;
+}
+.img__apps span{
+    font-weight: bold;
+}
+
+.liner-bg__img{
+    position: relative;
+}
+.liner-bg__img img{
+    width: 810px;
+    position: absolute;
+    top: -125px;
+    right: -33%;
+}
+.footer{
+    margin-top: 100px;
+}
+.title__asos{
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 700;
+    color: #003846;
+    margin-bottom: 20px;
+}
+ .footer__link li a{
+    font-size: 14px;
+    line-height: 34px;
+    color: #222124;
+}
+.tel{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #222124;
+}
+.locations{
+    font-size: 13px;
+    line-height: 24px;
+    color: #222124;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+.footer-sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.foter_sub .social__link .fab{
+    margin-right: 28px;
+}
+.foter_sub .fa-tiktok{
+    margin-right: 0;
+}
+
+/* media */
+@media (max-width: 576px) {
+    /* header */
+    .header{
+        background: linear-gradient(to bottom, #fff 60%, #800A7A 40%);
+    }
+    .navbar{
+        display: block;
+    }
+    .right__sec{
+        display: none!important;
+    }
+    .bg-burger__img .burger__logo{
+        width: 328px;
+    }
+
+    .title {
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        margin: 10px 0 0 70px;
+    }
+    .box{
+        width: 382px;
+        height: 163px;
+    }
+    .block:first-child{
+        padding-top: 0;
+    }
+    .dis-nones{
+        display: block!important;
+    }
+    .dis-none{
+        display: none;
+    }
+    .blur{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        top: 20%;
+        left: 28%;
+    }
+    .blur img{
+        width: 20px;
+    }
+    .food-title span{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .text{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .sum-plus{
+        margin-top: 0.5rem!important;
+    }
+    .sum-plus .sum{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .sum-plus .plus{
+        width: 35px;
+        height: 35px;
+    }
+    .sum-plus .plus span{
+        font-size: 20px;
+    }
+    #kk-sec{
+        padding: 14px 136px;
+        background-color: #F1F1F1;
+        border-radius: 27px;
+    }
+}
